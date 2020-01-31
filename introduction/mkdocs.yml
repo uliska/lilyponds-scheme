@@ -1,0 +1,18 @@
+theme:
+  name: 'material'
+markdown_extensions:
+  - codehilite
+site_dir: ../site
+repo_url: https://github.com/uliska/lilyponds-scheme/
+site_name: LilyPond's Scheme
+nav:
+  - Introduction:
+    - Home: README.md
+    - "LilyPond's Scheme": 'lilyponds-scheme.md'
+    - 'Learning the Language': 'language.md'
+    - 'Integrating in LilyPond': 'integrating.md'
+    - 'Advanced Interaction': 'advanced.md'
+  - 'Scheme ⬊': 'scheme/index.html'
+  - 'Scheme in LilyPond ⬊': 'lilypond/index.html'
+  - 'LilyPond Internals ⬊': 'internals/index.html'
+#  - 'License': 'license.md'

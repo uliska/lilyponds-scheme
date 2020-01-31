@@ -1,0 +1,83 @@
+theme:
+  name: 'material'
+  palette:
+    primary: 'Blue'
+    accent: 'Blue'
+markdown_extensions:
+  - codehilite
+use_directory_urls: false
+site_dir: '../site/scheme'
+repo_url: https://github.com/uliska/lilyponds-
+site_name: Scheme (in LilyPond)
+nav:
+  - "LilyPond's Scheme ⬈": ../index.html
+  - 'Introduction':
+    - 'Intro': 'index.md'
+    - "Everything's an Expression": 'expressions.md'
+    - 'Including Scheme in LilyPond': 'including.md'
+    - 'Music Function Primer': 'music-function-primer.md'
+  - 'Concepts':
+    - 'Intro': 'concepts.md'
+    - 'Data Types':
+      - 'Simple Data Types':
+        - 'Intro': 'data-types/README.md'
+        - 'Numbers': 'data-types/numbers.md'
+        - 'Booleans': 'data-types/booleans.md'
+        - 'Strings': 'data-types/strings.md'
+        - 'Symbols': 'data-types/symbols.md'
+      - 'Compound Data Types':
+        - 'Intro': 'data-types/compound.md'
+        - 'Lists and Pairs':
+          - 'Intro': 'data-types/lists-and-pairs/README.md'
+          - 'Creating Pairs': 'data-types/lists-and-pairs/creating-pairs.md'
+          - 'Accessing Pairs': 'data-types/lists-and-pairs/accessing-pairs.md'
+          - 'Creating Lists': 'data-types/lists-and-pairs/creating-lists.md'
+          - 'List Structure': 'data-types/lists-and-pairs/structure.md'
+          - 'Accessing Lists': 'data-types/lists-and-pairs/accessing-lists.md'
+          - 'Pairs vs. Lists': 'data-types/lists-and-pairs/list-pair-comparison.md'
+        - 'Vectors': 'data-types/vectors.md'
+      - 'Custom Types': 'data-types/custom.md'
+    - 'Equality and Equivalence': 'equality.md'
+    - 'Quoting':
+      - 'Intro': 'quoting/README.md'
+      - 'Preventing Evaluation': 'quoting/preventing-evaluation.md'
+      - 'Creating Lists and Pairs': 'quoting/lists-and-pairs.md'
+      - 'Unquoting': 'quoting/unquoting.md'
+    - 'Binding Variables':
+      - 'Intro': 'binding/README.md'
+      - 'Top-level Bindings': 'binding/top-level.md'
+      - 'Local Bindings': 'binding/local.md'
+      - 'Let': 'binding/let.md'
+      - 'Parenthesizing Errors': 'binding/paren-errors.md'
+      - 'let* and letrec': 'binding/letstar.md'
+    - 'Conditionals':
+      - 'Intro': 'conditionals/README.md'
+      - 'if': 'conditionals/if.md'
+      - 'cond': 'conditionals/cond.md'
+      - 'case': 'conditionals/case.md'
+      - 'not/and/or': 'conditionals/logical.md'
+  - 'Working With Lists':
+    - 'Intro': 'lists/README.md'
+    - 'List Operations':
+      - 'Accessing List Elements': 'lists/accessing.md'
+      - 'Extending and Reversing Lists': 'lists/extend-reverse.md'
+      - 'Filtering Lists': 'lists/filtering.md'
+      - 'Modifying Lists': 'lists/modifying.md'
+      - 'Iteration Over Lists': 'lists/iteration.md'
+    - 'Association Lists':
+      - 'Intro': 'alists/README.md'
+      - 'Lookup in Alists': 'alists/retrieving.md'
+      - 'Modifying Alists': 'alists/modifying.md'
+    - 'Iteration and Loops':
+      - 'Intro': 'loops/README.md'
+      - 'map': 'loops/map.md'
+      - 'for-each': 'loops/for-each.md'
+      - 'List Recursion': 'loops/recursion.md'
+      - 'Programming Loops': 'loops/do-while.md'
+  - 'Procedures':
+    - 'Defining Procedures': 'procedures/README.md'
+    - 'lambda Expressions': 'procedures/lambda.md'
+    - 'lambda Signatures': 'procedures/lambda-signatures.md'
+    - 'Binding Procedures': 'procedures/binding.md'
+    - 'Predicates': 'procedures/predicates.md'
+    - 'Parameter Types': 'procedures/parameter-types.md'

@@ -1,0 +1,26 @@
+theme:
+  name: 'material'
+  palette:
+    primary: 'Deep Purple'
+    accent: 'Deep Purple'
+markdown_extensions:
+  - codehilite
+use_directory_urls: false
+site_dir: '../site/lilypond'
+repo_url: https://github.com/uliska/lilyponds-
+site_name: Scheme in LilyPond
+nav:
+  - "LilyPond's Scheme ⬈": ../index.html
+  - 'Scheme in LilyPond':
+    - 'Intro': 'README.md'
+    - 'Switching Between Scheme and LilyPond': 'functions/switch-languages.md'
+    - 'Music, Scheme and Void Functions': 'functions/music-scheme-void.md'
+    - 'Interface of the functions': 'functions/interface.md'
+    - 'Markup Functions': 'functions/markup-functions.md'
+    - 'Creating Lists of Music Expressions': 'functions/list-music-expressions.md'
+  - 'Old Stuff':
+    - 'Writing Music Functions': 'old-stuff/functions/README.md'
+    - 'Getting to Grips with Scheme in LilyPond': 'old-stuff/functions/01.md'
+    - 'Start Doing Something Useful': 'old-stuff/functions/02.md'
+    - 'Reusing Code': 'old-stuff/functions/03.md'
+    - 'Recursion': 'old-stuff/functions/04.md'

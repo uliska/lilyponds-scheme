@@ -1,0 +1,20 @@
+theme:
+  name: 'material'
+  palette:
+    primary: 'Teal'
+    accent: 'Teal'
+markdown_extensions:
+  - codehilite
+use_directory_urls: false
+site_dir: '../site/internals'
+repo_url: https://github.com/uliska/lilyponds-scheme/
+site_name: LilyPond's Scheme Internals
+nav:
+  - "LilyPond's Scheme ⬈": ../index.html
+  - 'Advanced Interaction With Scheme':
+    - 'Intro': 'index.md'
+    - 'Built-in Scheme Functions': 'built-in/README.md'
+    - 'Overriding Stencils]': 'overriding-stencils.md'
+    - 'Scheme Engravers': 'engravers/README.md'
+    - 'Scheme Representation of Music': 'scheme-music/README.md'
+  - 'License': 'license.md'

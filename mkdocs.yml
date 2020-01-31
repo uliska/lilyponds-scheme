@@ -2,6 +2,7 @@ theme:
   name: 'material'
 markdown_extensions:
   - codehilite
+repo_url: https://github.com/uliska/lilyponds-scheme/
 site_name: LilyPond's Scheme
 nav:
   - Introduction:

@@ -1,0 +1,5 @@
+(define a (cons 1 2))
+(define b (cons '(3 . 4) "5"))
+(define c (cons (cons 6 7) "8"))
+(define d (cons (cons (cons (cons (cons 1 2) 3) 4) 5) 6))
+(define e (cons random (random 100.0)))

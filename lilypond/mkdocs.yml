@@ -7,12 +7,13 @@ markdown_extensions:
   - codehilite
 use_directory_urls: false
 site_dir: '../site/lilypond'
-repo_url: https://github.com/uliska/lilyponds-
+repo_url: https://github.com/uliska/lilyponds-scheme/
+edit_uri: edit/master/lilypond/docs
 site_name: Scheme in LilyPond
 nav:
   - "LilyPond's Scheme ⬈": ../index.html
   - 'Scheme in LilyPond':
-    - 'Intro': 'README.md'
+    - 'Intro': 'index.md'
     - 'Switching Between Scheme and LilyPond': 'functions/switch-languages.md'
     - 'Music, Scheme and Void Functions': 'functions/music-scheme-void.md'
     - 'Interface of the functions': 'functions/interface.md'

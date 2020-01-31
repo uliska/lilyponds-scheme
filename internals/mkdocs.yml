@@ -8,6 +8,7 @@ markdown_extensions:
 use_directory_urls: false
 site_dir: '../site/internals'
 repo_url: https://github.com/uliska/lilyponds-scheme/
+edit_uri: edit/master/internals/docs
 site_name: LilyPond's Scheme Internals
 nav:
   - "LilyPond's Scheme ⬈": ../index.html

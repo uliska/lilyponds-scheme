@@ -2,12 +2,14 @@ theme:
   name: 'material'
 markdown_extensions:
   - codehilite
+use_directory_urls: false
 site_dir: ../site
 repo_url: https://github.com/uliska/lilyponds-scheme/
+edit_uri: edit/master/introduction/docs
 site_name: LilyPond's Scheme
 nav:
   - Introduction:
-    - Home: README.md
+    - Home: index.md
     - "LilyPond's Scheme": 'lilyponds-scheme.md'
     - 'Learning the Language': 'language.md'
     - 'Integrating in LilyPond': 'integrating.md'

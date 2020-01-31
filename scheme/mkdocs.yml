@@ -7,7 +7,8 @@ markdown_extensions:
   - codehilite
 use_directory_urls: false
 site_dir: '../site/scheme'
-repo_url: https://github.com/uliska/lilyponds-
+repo_url: https://github.com/uliska/lilyponds-scheme/
+edit_uri: edit/master/scheme/docs
 site_name: Scheme (in LilyPond)
 nav:
   - "LilyPond's Scheme ⬈": ../index.html

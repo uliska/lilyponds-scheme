@@ -1,10 +1,14 @@
+# Common stuff
+
 theme:
   name: 'material'
 markdown_extensions:
   - codehilite
 use_directory_urls: false
-site_dir: ../site
 repo_url: https://github.com/uliska/lilyponds-scheme/
+
+# Subbook specific stuff
+site_dir: ../site
 edit_uri: edit/master/introduction/docs
 site_name: LilyPond's Scheme
 nav:

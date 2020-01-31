@@ -12,9 +12,9 @@ site_dir: ../site
 edit_uri: edit/master/introduction/docs
 site_name: LilyPond's Scheme
 nav:
-  - Introduction:
-    - Home: index.md
-    - "LilyPond's Scheme": 'lilyponds-scheme.md'
+  - Home: index.md
+  - "LilyPond's Scheme": 'lilyponds-scheme.md'
+  - Challenges:
     - 'Learning the Language': 'language.md'
     - 'Integrating in LilyPond': 'integrating.md'
     - 'Advanced Interaction': 'advanced.md'

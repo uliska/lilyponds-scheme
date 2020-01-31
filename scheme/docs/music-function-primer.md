@@ -89,7 +89,8 @@ myMusicFunction =
   c'4
   \myMusicFunction #red
   d'8
-}```
+}
+```
 
 The  `#{ #}` is *one* Scheme expression, but as in any LilyPond music expression
 it can have many consecutive elements like the overrides in this example.

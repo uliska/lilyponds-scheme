@@ -42,11 +42,11 @@ expression is returned as the value of the `cond` expression:
 #(display
   (let ((rand (random 100)))
     (cond
-     ((> 50 rand)
+     ((> rand 50)
       (display rand)
       (newline)
       "Random number is greater than 50")
-     ((< 50 rand)
+     ((< rand 50)
      (display rand)
      (newline)
       "Random number is smaller than 50")

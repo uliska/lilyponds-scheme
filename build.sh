@@ -13,4 +13,4 @@ done
 
 # Merge the search indexes of the main and the sub books
 # So the whole book set can be searched from every page.
-python3 merge-search.py
+merge-mkdocs-search-indexes

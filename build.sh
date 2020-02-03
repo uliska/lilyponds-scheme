@@ -13,4 +13,4 @@ done
 
 # Merge the search indexes of the main and the sub books
 # So the whole book set can be searched from every page.
-merge-mkdocs-search-indexes
+merge-mkdocs-search-indexes --built yes

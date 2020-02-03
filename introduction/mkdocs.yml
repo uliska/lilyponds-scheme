@@ -3,6 +3,8 @@
 theme:
   name: 'material'
   logo: 'assets/images/frescobaldi.svg'
+  feature:
+    tabs: true
 markdown_extensions:
 #  - codehilite:
 #      guess_lang: false
@@ -26,17 +28,20 @@ plugins:
 repo_url: https://github.com/uliska/lilyponds-scheme/
 
 # Subbook specific stuff
-site_dir: ../site
+site_dir: ../site/introduction
 edit_uri: edit/master/introduction/docs
 site_name: LilyPond's Scheme
 nav:
-  - Home: index.md
-  - "LilyPond's Scheme": 'lilyponds-scheme.md'
-  - Challenges:
-    - 'Learning the Language': 'language.md'
-    - 'Integrating in LilyPond': 'integrating.md'
-    - 'Advanced Interaction': 'advanced.md'
-  - 'Scheme ⬊': 'scheme/index.html'
-  - 'Scheme in LilyPond ⬊': 'lilypond/index.html'
-  - 'LilyPond Internals ⬊': 'internals/index.html'
-#  - 'License': 'license.md'
+  - Introduction:
+    - Home: index.md
+    - "LilyPond's Scheme": 'lilyponds-scheme.md'
+    - Challenges:
+      - 'Learning the Language': 'language.md'
+      - 'Integrating in LilyPond': 'integrating.md'
+      - 'Advanced Interaction': 'advanced.md'
+  - 'Scheme':
+    - Home: '../scheme/index.html'
+  - 'Scheme in LilyPond':
+    - Home: '../lilypond/index.html'
+  - 'LilyPond Internals':
+    - Home: '../internals/index.html'

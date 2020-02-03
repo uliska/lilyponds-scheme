@@ -32,17 +32,22 @@ repo_url: https://github.com/uliska/lilyponds-scheme/
 edit_uri: edit/master/lilypond/docs
 site_name: Scheme in LilyPond
 nav:
-  - "LilyPond's Scheme ⬈": ../index.html
+  - Introduction:
+    - Home: '../introduction/index.html'
+  - 'Scheme':
+    - Home: '../scheme/index.html'
   - 'Scheme in LilyPond':
-    - 'Intro': 'index.md'
+    - Home: 'index.md'
     - 'Switching Between Scheme and LilyPond': 'functions/switch-languages.md'
     - 'Music, Scheme and Void Functions': 'functions/music-scheme-void.md'
     - 'Interface of the functions': 'functions/interface.md'
     - 'Markup Functions': 'functions/markup-functions.md'
     - 'Creating Lists of Music Expressions': 'functions/list-music-expressions.md'
-  - 'Old Stuff':
-    - 'Writing Music Functions': 'old-stuff/functions/README.md'
-    - 'Getting to Grips with Scheme in LilyPond': 'old-stuff/functions/01.md'
-    - 'Start Doing Something Useful': 'old-stuff/functions/02.md'
-    - 'Reusing Code': 'old-stuff/functions/03.md'
-    - 'Recursion': 'old-stuff/functions/04.md'
+    - 'Old Stuff':
+      - 'Writing Music Functions': 'old-stuff/functions/README.md'
+      - 'Getting to Grips with Scheme in LilyPond': 'old-stuff/functions/01.md'
+      - 'Start Doing Something Useful': 'old-stuff/functions/02.md'
+      - 'Reusing Code': 'old-stuff/functions/03.md'
+      - 'Recursion': 'old-stuff/functions/04.md'
+  - 'LilyPond Internals':
+    - Home: '../internals/index.html'

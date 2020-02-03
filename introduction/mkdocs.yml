@@ -2,9 +2,27 @@
 
 theme:
   name: 'material'
+  logo: 'assets/images/frescobaldi.svg'
 markdown_extensions:
-  - codehilite
+#  - codehilite:
+#      guess_lang: false
+  - admonition
+  - toc:
+      permalink: true
 use_directory_urls: false
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+  social:
+    - type: 'github'
+      link: 'https://github.com/openlilylib'
+    - type: 'wordpress'
+      link: 'http://lilypondblog.org'
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
 repo_url: https://github.com/uliska/lilyponds-scheme/
 
 # Subbook specific stuff

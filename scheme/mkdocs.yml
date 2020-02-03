@@ -1,13 +1,35 @@
+# Common stuff
+
 theme:
   name: 'material'
   palette:
     primary: 'Blue'
     accent: 'Blue'
+  feature:
+    tabs: true
 markdown_extensions:
-  - codehilite
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - toc:
+      permalink: true
 use_directory_urls: false
-site_dir: '../site/scheme'
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+  social:
+    - type: 'github'
+      link: 'https://github.com/openlilylib'
+    - type: 'wordpress'
+      link: 'http://lilypondblog.org'
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
+use_directory_urls: false
 repo_url: https://github.com/uliska/lilyponds-scheme/
+site_dir: '../site/scheme'
 edit_uri: edit/master/scheme/docs
 site_name: Scheme (in LilyPond)
 nav:

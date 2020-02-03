@@ -19,13 +19,8 @@ import os
 # Relative path to generated website, from this script
 SITE_ROOT = 'site'
 
-# Names of the main books and the book parts
-BOOKS = [
-    'introduction', # Main book
-    'scheme',
-    'lilypond',
-    'internals'
-]
+# Name of the book part that is the umbrella for the site
+MAIN_BOOK = 'introduction'
 
 class AbstractBook(object):
     """
@@ -143,19 +138,33 @@ class SubBook(AbstractBook):
 
 class Main(object):
     """A class instead of a main() function"""
-    def __init__(self, book_names):
+    def __init__(self, main_book):
         # We assume the script is called from within the repository
         self._root = os.getcwd()
         self._main_book = None
         self._sub_books = []
-        self.init_books(book_names)
+        self.init_books(main_book)
         self.update_books()
 
-    def init_books(self, book_names):
+    def init_books(self, main_book):
         """Create the book objects, load indexes from disk."""
-        self._main_book = MainBook(self._root, book_names[0])
-        for name in book_names[1:]:
-            self._sub_books.append(SubBook(self._root, name))
+        root = self.root()
+        items = os.listdir(root)
+        for i in items:
+            subitem = os.path.join(root, i)
+            if (
+                os.path.isdir(subitem)
+                and os.path.exists(os.path.join(subitem, 'mkdocs.yml'))
+            ):
+                if i == main_book:
+                    self._main_book = MainBook(self.root(), i)
+                else:
+                    self._sub_books.append(SubBook(self.root(), i))
+            else:
+                pass
+
+    def root(self):
+        return self._root
 
     def update_books(self):
         """Update the JSON indexes for all books and save to disk."""
@@ -174,4 +183,4 @@ def warn():
     print('have been created. Otherwise file access errors may occur.')
 
 warn()
-Main(BOOKS)
+Main(MAIN_BOOK)

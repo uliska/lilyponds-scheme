@@ -145,7 +145,7 @@ class Main(object):
     """A class instead of a main() function"""
     def __init__(self, book_names):
         # We assume the script is called from within the repository
-        self._root = os.path.dirname(os.path.realpath(__file__))
+        self._root = os.getcwd()
         self._main_book = None
         self._sub_books = []
         self.init_books(book_names)

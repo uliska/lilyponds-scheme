@@ -61,7 +61,7 @@ application.
 
 #### Predicates
 
-Of course it's no good idea to simply throw values at a procedure and wait for
+Of course it's not a good idea to simply throw values at a procedure and wait for
 errors to occur or not.  In Scheme it is therefore very common to check the type
 of a value before using it.  As a response the program will either reject the
 value or  select suitable code to be executed. This will be discussed in a later

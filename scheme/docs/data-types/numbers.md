@@ -30,7 +30,7 @@ literally, so `#13` is equivalent to `13`
 }
 ```
 
-If arithmetic operations are performed on integers the results are integer as well:
+If arithmetic operations are performed on integers the results are integers as well:
 
 ```
 guile> (+ 123 345)

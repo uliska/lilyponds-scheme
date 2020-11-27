@@ -80,9 +80,9 @@ quotes break the string variable, which you can already see from the syntax
 highlighting.  LilyPond will in this case produce a pretty confusing error
 message but will at least point you to the offending line of the input file.
 
-*Note:* this is only true for straight double quotes.  From a typographical
-*perspective it is often better to use typographical (or "curly") quotes anyway
-*(e.g. `“English”`, `„Deutsch“` or `«Français»`).  These don't need escaping.
+>*Note:* this is only true for straight double quotes.  From a typographical
+>perspective it is often better to use typographical (or "curly") quotes anyway
+>(e.g. `“English”`, `„Deutsch“` or `«Français»`).  These don't need escaping.
 
 #### The backslash
 

@@ -18,7 +18,7 @@ originating.  Predicates can be defined in
 * Custom (user/library) code
 
 You may now want to have a look at the extensive [list of
-predicates](http://lilypond.org/doc/v2.19/Documentation/notation/predefined-type-predicates)
+predicates](http://lilypond.org/doc/v2.20/Documentation/notation/predefined-type-predicates)
 in LilyPond's documentation.  To get our head around the idea of custom data
 types we will have a closer look at one data type that is defined by LilyPond:
 `color?`.
@@ -28,9 +28,9 @@ types we will have a closer look at one data type that is defined by LilyPond:
 Applying a color to a score item is achieved by overriding its `color` property.
 (For more details about coloring please refer to the respective pages in
 LilyPond's [Learning
-Manual](http://lilypond.org/doc/v2.19/Documentation/learning/visibility-and-color-of-objects#the-color-property)
+Manual](http://lilypond.org/doc/v2.20/Documentation/learning/visibility-and-color-of-objects#the-color-property)
 and the [Notation
-Reference](http://lilypond.org/doc/v2.19/Documentation/notation/inside-the-staff#coloring-objects).)
+Reference](http://lilypond.org/doc/v2.20/Documentation/notation/inside-the-staff#coloring-objects).)
 
 ```lilypond
 \override NoteHead.color = #red

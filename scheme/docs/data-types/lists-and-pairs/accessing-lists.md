@@ -37,7 +37,7 @@ the list, while using an `a` as the initial letter selects the corresponding
 One point of specific interest is the *last* element. As explained in the
 previous chapter *any* `cdr` variant retrieves a *list* (at least from a
 *proper* list), so `(cdddr l)` also returns `(4)`.  In order to retrieve
-*values* from a list on always has to use the `a` as the first letter,
+*values* from a list one always has to use the `a` as the first letter,
 equivalent to using “the car of whatever position in the list we are interested
 in”.
 

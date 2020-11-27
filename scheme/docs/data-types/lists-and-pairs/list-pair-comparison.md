@@ -5,7 +5,7 @@ In an [earlier chapter](accessing-pairs.html) we created a nested pair whose
 
 ```
 guile> (define p (cons (cons (cons (cons (cons 1 2) 3) 4) 5) 6))
-guile> d
+guile> p
 (((((1 . 2) . 3) . 4) . 5) . 6)
 ```
 

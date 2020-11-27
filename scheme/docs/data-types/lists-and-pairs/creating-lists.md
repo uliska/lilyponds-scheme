@@ -144,7 +144,7 @@ failFour = one.4false.symbol-list
 ```
 error: syntax error, unexpected SCM_TOKEN, expecting '='
 
-#(display failFive)
+#(display failFive) 
 (one 4)
 ```
 

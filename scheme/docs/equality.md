@@ -48,8 +48,8 @@ that fact. So depending on the context both is possible: `(eq? 1 1) => #t` or
 
 Numbers and characters should rather be compared with `eqv?`.  This doesn't look
 for *identity* but for *equivalence* of the compared objects - for numbers and
-characters.  For all other data types `eqv?` behaves the same as `eq?` and
-should regularly not be used: `(eq? '(1 . 2) '(1 . 2))` evaluates to `#f` even
+characters.  For all other data types `eqv?` behaves the same as `eq?`, which
+should not be used regularly since: `(eq? '(1 . 2) '(1 . 2))` evaluates to `#f` even
 if the pairs have the same content.
 
 ## equal?

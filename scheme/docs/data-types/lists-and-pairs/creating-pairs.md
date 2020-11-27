@@ -16,7 +16,7 @@ LilyPond, so everybody should be familiar with seeing and entering them:
    caption="Pairs as overrides",
    href="assets/images/pairs-fullsize.png" %}
   /assets/images/pairs-small.png
-{% endimage %}
+{% endimage %} 
 
 ## Writing Pairs as Literals
 
@@ -162,4 +162,4 @@ subsequent compilation.)*
    caption="Random pairs as overrides",
    href="assets/images/pairs-random-fullsize.png" %}
   /assets/images/pairs-random-small.png
-{% endimage %}
+{% endimage %} 

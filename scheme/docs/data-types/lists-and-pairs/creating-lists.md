@@ -151,7 +151,7 @@ error: syntax error, unexpected SCM_TOKEN, expecting '='
 This one is a tricky error message as the input to `failFour` actually causes
 the LilyPond parser to wreak havoc.  The error is raised not during the parsing
 of `failFour` but at the beginning of the next expression, and therefore it
-refers to an item that shouldn't be of any interest..  Obviously the parser
+refers to an item that shouldn't be of any interest.  Obviously the parser
 reads `(one 4)` and then stops making any sense of the input.  The error message
 is rather cryptic in this case as the item that is printed in the message is
 *not* the item that caused the error.  And of course it can be a very different

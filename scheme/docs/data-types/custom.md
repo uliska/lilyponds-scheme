@@ -138,7 +138,7 @@ the first number is greater than 1.  As a result LilyPond prints a warning to
 the console and ignores the override: `warning: type check for 'color' failed;
 value '(3/2 0.3 1)' must be of type 'color'`.
 
-Obviously it it possible to use anything as a color property that evaluates to
+Obviously it is possible to use anything as a color property that evaluates to
 something satisfying the `color?` predicate, whether it is a predefined color
 variable, an ad-hoc list or a call to a custom procedure.  At the same time the
 type check (which is actively performed by LilyPond) acts as a safety net: it

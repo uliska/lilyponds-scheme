@@ -263,7 +263,7 @@ ABORT: (unbound-variable)
 There are two invocations that fail because Scheme (or rather Guile) doesn't
 have these defined as shorthands.  In these cases you have to apply and nest the
 regular procedures.  However, if you like to get your head around this
-additional complexity you can consider the folloiwng (closing) example:
+additional complexity you can consider the following (closing) example:
 `caaaaar` is not defined but `caaaar` returns a pair. Therefore you can apply
 `car` to the result of `caaaar`. And you can even continue on that track, thus
 nesting the shorthands in arbitrary ways:

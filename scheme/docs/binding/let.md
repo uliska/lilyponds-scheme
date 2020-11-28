@@ -29,7 +29,7 @@ dampedYellow =
   (/ (second (car props)) (cdr props))
   (/ (third (car props)) (cdr props)))
 
-#(display dampedYellow)
+#(display dampedYellow) 
 ```
 
 which will print `(0.769230769230769 0.769230769230769 0.0)` to the console.

@@ -112,7 +112,7 @@ bpmA = 60
 ```
 
 We have two variables, `bpmA` and `bpmB`, one of which has been entered as a
-LilyPond, the other as a Scheme variable (as an exercise you can think about
+LilyPond variable, the other as a Scheme variable (as an exercise you can think about
 this expression in the light of what you learnt in the previous chapter).  But
 internally they are now the same kind of variable and can be accessed in the
 same way:

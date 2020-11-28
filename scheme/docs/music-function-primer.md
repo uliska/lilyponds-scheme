@@ -27,7 +27,7 @@ mySchemeFunction =
    (string?)
    ; function body
    )
- ```
+```
 
 We use a variable name and assign it a (music) function. Following the keyword
 `define-scheme-function` is a list of parameter names (in the example just one),

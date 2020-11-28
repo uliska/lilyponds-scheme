@@ -69,4 +69,4 @@ random
 
 However, you should still be familiar with at least reading the explicit form,
 as Scheme may use it to format expressions that you may display for learning or
-debugging purposes..
+debugging purposes.

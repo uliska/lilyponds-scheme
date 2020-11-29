@@ -81,7 +81,7 @@ assq-set! <alist> <key> <value>
 
 otherwise you may have to use `assv-set!` or `assoc-set!` and - again -
 familiarize yourself with the different levels of equality in Scheme.  (Again:
-please not the different order of arguments as compared to `acons`.)
+please note the different order of arguments as compared to `acons`.)
 
 The procedure first checks if the alist already contains an entry with the given
 key.  If it does it replaces the value for that key, so the original alist is

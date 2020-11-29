@@ -35,7 +35,7 @@ The most common form for each clause is
 (test exp1 exp2 ...)
 ```
 
-In this case one ore more expressions are evaluated and the value of the last
+In this case one or more expressions are evaluated and the value of the last
 expression is returned as the value of the `cond` expression:
 
 ```lilypond

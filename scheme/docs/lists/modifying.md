@@ -54,7 +54,7 @@ position `1`, which is the *second* element, `2`. Then it sets the `cdr` of this
 element to the list `b`, effectively appending the second list to the list head
 of the first.
 
-The same list could equally have been cosntructed with
+The same list could equally have been constructed with
 
 ```
 guile> (append (list-head a 2) b)

@@ -103,7 +103,7 @@ chapter to the different ways of binding and reusing procedures.
 ### Multiple Paramters and Expressions
 
 Our first procedure accepted a single argument, and its body also consisted of a
-single expression.  But of course multiple arguments and epxressions can be
+single expression.  But of course multiple arguments and expressions can be
 handled:
 
 ```

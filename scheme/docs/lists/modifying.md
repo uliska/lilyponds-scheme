@@ -14,7 +14,7 @@ familiarize yourself with what is available.
 
 #### Changing a Single List Element
 
-`list-set!` is the corresponding procedure to `list-ref`: `
+`list-set!` is the corresponding procedure to `list-ref`: 
 
 ```
 (list-set! <list> <index> <new-value>)

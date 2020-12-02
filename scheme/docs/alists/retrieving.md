@@ -24,7 +24,8 @@ in the method they use for determining a matching key, which Guile calls the
 and you can keep in mind that as long as you stick to *symbols* as alist keys
 you should use the “q” variants of the procedures, `assq` and `assq-ref`.  If at
 one point you should need other types as alist keys you have to get familiar
-with Scheme's concept of equality and Guile's/LilyPond's implementation of it.
+with Scheme's concept of equality and Guile's/LilyPond's implementation of it
+(see [Equality and Equivalence](https://scheme-book.ursliska.de/scheme/equality.html)).
 
 #### Different Return Targets
 

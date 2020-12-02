@@ -149,4 +149,4 @@ guile> bool-alist
 ((color 1.0 0.0 0.0) (debug . #t) (subdivide . #t) (use-color . #f))
 ```
 
-Please not that *this time* the procedure *does* modify the alist directly.
+Please note that *this time* the procedure *does* modify the alist directly.
